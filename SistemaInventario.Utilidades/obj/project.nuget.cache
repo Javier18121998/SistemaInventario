@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "JaJYUmD+wD7fzUTS7y2ygFLQq1AuE3wd9/5vEc2xn4i8A3YVxYU8JP8hvro5s4cAMPqJB84SuLhaIQE4z5OdRA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\source\\repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.7\\microsoft.entityframeworkcore.7.0.7.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.7\\microsoft.entityframeworkcore.abstractions.7.0.7.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.7\\microsoft.entityframeworkcore.analyzers.7.0.7.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
