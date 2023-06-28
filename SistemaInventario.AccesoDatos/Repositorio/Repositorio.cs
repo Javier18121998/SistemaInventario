@@ -37,7 +37,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
                                                 )
         {
             IQueryable<T> query = dbSet;
-            if ( filtro == null ) 
+            if ( filtro != null ) 
             {
                 query = query.Where( filtro ); // select * from where ...
             }
