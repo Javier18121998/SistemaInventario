@@ -28,7 +28,8 @@ namespace SistemaInventario.Areas.Admin.Controllers
                 return View(categoria);
             }
             //Actualizamos Bodega
-            categoria = await _unidadTrabajo.Categoria.Obtener(id.GetValueOrDefault());
+            categoria = await _unidadTrabajo.Categoria
+                                            .Obtener(id.GetValueOrDefault());
             if (categoria == null) { return NotFound(); }
             return View(categoria);
         }
@@ -40,12 +41,14 @@ namespace SistemaInventario.Areas.Admin.Controllers
             {
                 if (categoria.Id == 0)
                 {
-                    await _unidadTrabajo.Categoria.Agregar(categoria);
+                    await _unidadTrabajo.Categoria
+                                        .Agregar(categoria);
                     TempData[DS.Exitosa] = "Categoria creada Exitosamente";
                 }
                 else
                 {
-                    _unidadTrabajo.Categoria.Acutaliza(categoria);
+                    _unidadTrabajo.Categoria
+                                  .Acutaliza(categoria);
                     TempData[DS.Exitosa] = "Categoria actualizada Exitosamente";
                 }
                 await _unidadTrabajo.Guardar();
@@ -58,12 +61,14 @@ namespace SistemaInventario.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> ObtenerTodos()
         {
-            var todos = await _unidadTrabajo.Categoria.ObtenerTodos();
+            var todos = await _unidadTrabajo.Categoria
+                                            .ObtenerTodos();
             return Json(new { data = todos });
         }
         public async Task<IActionResult> Delete( int id )
         {
-            var categoriaDb = await _unidadTrabajo.Categoria.Obtener(id);
+            var categoriaDb = await _unidadTrabajo.Categoria
+                                                  .Obtener(id);
             if (categoriaDb == null)
             {
                 return Json( new { 
@@ -72,7 +77,8 @@ namespace SistemaInventario.Areas.Admin.Controllers
                                  } 
                             );
             }
-            _unidadTrabajo.Categoria.Remover(categoriaDb);
+            _unidadTrabajo.Categoria
+                          .Remover(categoriaDb);
             await _unidadTrabajo.Guardar();
             return Json(new { 
                                 success = true,
@@ -84,14 +90,21 @@ namespace SistemaInventario.Areas.Admin.Controllers
         public async Task<IActionResult> ValidarNombre(string nombre, int id = 0)
         {
             bool valor = false;
-            var lista = await _unidadTrabajo.Categoria.ObtenerTodos();
+            var lista = await _unidadTrabajo.Categoria
+                                            .ObtenerTodos();
             if (id == 0)
             {
-                valor = lista.Any(b => b.Nombre.ToLower().Trim() == nombre.ToLower().Trim());
+                valor = lista.Any( b => b.Nombre.ToLower()
+                                                .Trim() == nombre.ToLower()
+                                                                 .Trim()
+                                 );
             }
             else
             {
-                valor = lista.Any(b => b.Nombre.ToLower().Trim() == nombre.ToLower().Trim() && b.Id != id);
+                valor = lista.Any( b => b.Nombre.ToLower()
+                                                .Trim() == nombre.ToLower()
+                                                                 .Trim() && b.Id != id
+                                 );
             }
             if (valor)
             {

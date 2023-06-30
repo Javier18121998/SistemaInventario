@@ -13,10 +13,19 @@ namespace SistemaInventario.AccesoDatos.Configuracion
     {
         public void Configure(EntityTypeBuilder<Bodega> builder)
         {
-            builder.Property(x => x.Id).IsRequired();
-            builder.Property(x => x.Nombre).IsRequired().HasMaxLength(60); 
-            builder.Property(x => x.Estado).IsRequired();
-            builder.Property(x => x.Descripción).IsRequired().HasMaxLength(100);  
+            builder.Property(x => x.Id)
+                   .IsRequired();
+
+            builder.Property(x => x.Nombre)
+                   .IsRequired()
+                   .HasMaxLength(60);
+            
+            builder.Property(x => x.Estado)
+                   .IsRequired();
+
+            builder.Property(x => x.Descripción)
+                   .IsRequired()
+                   .HasMaxLength(100);  
         }
     }
 }

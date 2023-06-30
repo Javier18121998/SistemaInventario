@@ -28,7 +28,8 @@ namespace SistemaInventario.Areas.Admin.Controllers
                 return View(bodega);
             }
             //Actualizamos Bodega
-            bodega = await _unidadTrabajo.Bodega.Obtener(id.GetValueOrDefault());
+            bodega = await _unidadTrabajo.Bodega
+                                         .Obtener(id.GetValueOrDefault());
             if (bodega == null) { return NotFound(); }
             return View(bodega);
         }
@@ -40,12 +41,14 @@ namespace SistemaInventario.Areas.Admin.Controllers
             {
                 if (bodega.Id == 0)
                 {
-                    await _unidadTrabajo.Bodega.Agregar(bodega);
+                    await _unidadTrabajo.Bodega
+                                        .Agregar(bodega);
                     TempData[DS.Exitosa] = "Bodega creada Exitosamente";
                 }
                 else
                 {
-                    _unidadTrabajo.Bodega.Acutaliza(bodega);
+                    _unidadTrabajo.Bodega
+                                  .Acutaliza(bodega);
                     TempData[DS.Exitosa] = "Bodega actualizada Exitosamente";
                 }
                 await _unidadTrabajo.Guardar();
@@ -58,12 +61,14 @@ namespace SistemaInventario.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> ObtenerTodos()
         {
-            var todos = await _unidadTrabajo.Bodega.ObtenerTodos();
+            var todos = await _unidadTrabajo.Bodega
+                                            .ObtenerTodos();
             return Json(new { data = todos });
         }
         public async Task<IActionResult> Delete( int id )
         {
-            var bodegaDb = await _unidadTrabajo.Bodega.Obtener(id);
+            var bodegaDb = await _unidadTrabajo.Bodega
+                                               .Obtener(id);
             if (bodegaDb == null)
             {
                 return Json( new { 
@@ -72,7 +77,8 @@ namespace SistemaInventario.Areas.Admin.Controllers
                                  } 
                             );
             }
-            _unidadTrabajo.Bodega.Remover(bodegaDb);
+            _unidadTrabajo.Bodega
+                          .Remover(bodegaDb);
             await _unidadTrabajo.Guardar();
             return Json(new { 
                                 success = true,
@@ -84,7 +90,8 @@ namespace SistemaInventario.Areas.Admin.Controllers
         public async Task<IActionResult> ValidarNombre(string nombre, int id = 0)
         {
             bool valor = false;
-            var lista = await _unidadTrabajo.Bodega.ObtenerTodos();
+            var lista = await _unidadTrabajo.Bodega
+                                            .ObtenerTodos();
             if (id == 0)
             {
                 valor = lista.Any(b => b.Nombre
