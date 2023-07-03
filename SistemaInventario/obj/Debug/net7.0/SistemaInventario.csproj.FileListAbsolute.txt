@@ -1,3 +1,6 @@
+C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Localization.dll
+C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\appsettings.json
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\SistemaInventario.staticwebassets.runtime.json
@@ -45,14 +48,11 @@ C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Http.Results.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.HttpLogging.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
-C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Identity.dll
-C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Localization.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Metadata.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
-C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.dll
@@ -310,6 +310,7 @@ C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -359,6 +360,7 @@ C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\NuGet.Common.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\NuGet.Configuration.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
