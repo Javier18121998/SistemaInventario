@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\admin\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.ico",
+      "PackagePath": "staticwebassets\\imagenes\\icono.ico"
+    },
+    {
+      "Id": "C:\\Users\\admin\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\imagenes\\icono.png"
+    },
+    {
       "Id": "C:\\Users\\admin\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\81e52cea-4218-478c-b411-14f8a7023aff.JPG",
       "PackagePath": "staticwebassets\\imagenes\\producto\\81e52cea-4218-478c-b411-14f8a7023aff.JPG"
     },

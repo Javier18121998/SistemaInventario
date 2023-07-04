@@ -36,7 +36,9 @@ namespace SistemaInventario.Areas.Admin.Controllers
             };
             if ( id == null )
             {
-                //Crear nuevo Producto
+                /*
+                 *      Crear nuevo Producto
+                 */
                 productoVM.producto.Estado = true;
                 return View(productoVM);
             }
@@ -92,23 +94,32 @@ namespace SistemaInventario.Areas.Admin.Controllers
                         {
                             System.IO.File.Delete(anteriorFile);
                         }
-                        using(var fileStream = new FileStream(Path.Combine(upload, fileName + extension),
-                                                              FileMode.Create))
+                        using(var fileStream = new FileStream(  Path.Combine(upload, fileName + extension),
+                                                                FileMode.Create
+                             ))
                         {
                             files[0].CopyTo(fileStream);
                         }
                         productoVM.producto.ImagenUrl = fileName + extension;  
-                    } //Caso contrario no se cargara una nueva imagen
+                    } 
+                    /*
+                     *      Caso contrario no se cargara una nueva imagen
+                     */
                     else
                     {
                         productoVM.producto.ImagenUrl = objProducto.ImagenUrl;
                     }
                     _unidadTrabajo.Producto.Acutaliza(productoVM.producto);
                 }
+
                 TempData[DS.Exitosa] = "Transaccion Exitosa!";
                 await _unidadTrabajo.Guardar();
                 return View("Index");
-            }//If not Valid
+
+            }
+            /*
+             *    Si no es valido
+             */
             productoVM.CategoriaLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Categoria");
             productoVM.MarcaLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Marca");
             productoVM.PadreLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Producto");
@@ -138,7 +149,9 @@ namespace SistemaInventario.Areas.Admin.Controllers
                                  } 
                             );
             }
-            //Remover Imagen
+            /*
+             *      Remover Imagen
+             */
             string upload = _webHostEnvironment.WebRootPath + DS.ImagenRuta;
             var anteriorFile = Path.Combine(upload, productoDb.ImagenUrl);
             if (System.IO.File.Exists(anteriorFile)) { System.IO.File.Delete(anteriorFile); }

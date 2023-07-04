@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mDNBf8UAYMJf0R7zLzGEiTvAenS6ckp4t2AL8EuJnfQ=",
+  "Hash": "2OK7oasnjRwSt/r+MuUEn6o1Lu/wFXZvSRhYPvmq81U=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1103,6 +1103,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\admin\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.ico",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "imagenes/icono.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\icono.ico"
+    },
+    {
+      "Identity": "C:\\Users\\admin\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.png",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "imagenes/icono.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\icono.png"
     },
     {
       "Identity": "C:\\Users\\admin\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\81e52cea-4218-478c-b411-14f8a7023aff.JPG",
