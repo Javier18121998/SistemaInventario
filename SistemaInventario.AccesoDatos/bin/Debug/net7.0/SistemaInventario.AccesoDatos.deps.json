@@ -1748,6 +1748,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.7",
+          "Microsoft.Extensions.Identity.Stores": "7.0.7",
           "SistemaInventario.Utilidades": "1.0.0"
         },
         "runtime": {

@@ -56,7 +56,7 @@
         <a asp-action="Index"
            asp-route-pageNumber="@((int)ViewData["PageNumber"] - 1)"
            class="btn btn-outline-primary @ViewData["Previo"]"
-           asp-route-busquedaActual="@ViewData["BusquedaActual"]">
+           asp-route-busquedaActual="@ViewData["BusquedaActual"]"
         >
             Anterior
         </a>
@@ -64,14 +64,14 @@
         <a asp-action="Index"
            asp-route-pageNumber="@((int)ViewData["PageNumber"] + 1)"
            class="btn btn-outline-primary @ViewData["Siguiente"]"
-           asp-route-busquedaActual="@ViewData["BusquedaActual"]">
+           asp-route-busquedaActual="@ViewData["BusquedaActual"]"
         >
             Siguiente
         </a>
         <a asp-action="Index"
            asp-route-pageNumber="@ViewData["TotalPaginas"]"
            class="btn btn-outline-primary"
-           asp-route-busquedaActual="@ViewData["BusquedaActual"]">
+           asp-route-busquedaActual="@ViewData["BusquedaActual"]"
         >
             <i class="bi bi-skip-end-fill"></i>
         </a>
