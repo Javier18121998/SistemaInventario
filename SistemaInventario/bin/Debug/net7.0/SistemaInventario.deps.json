@@ -3446,6 +3446,7 @@
       },
       "SistemaInventario.Utilidades/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.7",
           "Microsoft.EntityFrameworkCore": "7.0.7"
         },
         "runtime": {
