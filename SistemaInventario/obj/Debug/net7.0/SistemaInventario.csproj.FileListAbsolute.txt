@@ -1,6 +1,3 @@
-C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
-C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Localization.dll
-C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\appsettings.json
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\SistemaInventario.staticwebassets.runtime.json
@@ -48,11 +45,14 @@ C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Http.Results.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.HttpLogging.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Identity.dll
+C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Localization.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Metadata.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Mvc.dll
