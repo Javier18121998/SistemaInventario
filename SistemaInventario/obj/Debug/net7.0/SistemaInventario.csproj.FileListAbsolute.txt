@@ -567,3 +567,5 @@ C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\obj\Debug\net7.0
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\obj\Debug\net7.0\SistemaInventario.pdb
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\obj\Debug\net7.0\SistemaInventario.genruntimeconfig.cache
 C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\obj\Debug\net7.0\ref\SistemaInventario.dll
+C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\SendGrid.dll
+C:\Users\admin\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\StarkbankEcdsa.dll
